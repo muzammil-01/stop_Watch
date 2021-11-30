@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Stop Watch</title>
+</head>
+<body>
+    <div class="container">
+        <div class="timerHeadings">
+            <h1 class="minHeading">00 </h1><span><h1>:</h1></span>
+            <h1 class="secHeading">00 </h1> <span><h1>:</h1></span>
+            <h1 class="millisecHeading">00</h1>
+        </div>
+        <div class="buttons">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn">Stop</button>
+            <button id="resetBtn">Reset</button>
+            <button id="lapBtn">Lap</button>
+        </div>
+    </div>
+<div class="laps">
+    <h1>Lap Count</h1>
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>SNo</th>
+                <th>Minutes</th>
+                <th>Seconds</th>
+                <th>Milliseconds</th>  
+            </tr>
+        </thead>
+        <tbody id="lapsCount">
+            
+        </tbody>
+    </table>
+    <button id="clr">clear All</button>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

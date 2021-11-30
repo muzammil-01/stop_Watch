@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #222242;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 30px;
+  width: 450px;
+  height: 450px;
+  line-height: 200px;
+  text-align: center;
+  border-radius: 50px;
+  background: #151538;
+  margin: 10px auto;
+}
+.laps {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+.timerHeadings h1 {
+  font-size: 70px;
+  display: inline;
+}
+
+.buttons button {
+  color: black;
+  font-size: large;
+  font-weight: bolder;
+  margin: 8px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+.buttons button:hover{
+  transform: translate(5%);
+}
+button:disabled{
+  color: gray;
+  background: lightgray;
+  cursor: not-allowed;
+}
+
+table, td, th {
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+table{
+  margin-top: 50px;
+}
+th{
+  font-size: 25px;
+}
+table {
+  border-collapse: collapse;
+}
+#clr{
+  margin-top: 10px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: larger;
+  border: none;
+}
